@@ -1,0 +1,33 @@
+{
+  "name": "omni-research",
+  "version": "0.1.0",
+  "description": "Universal AI research agent on CROO CAP — accepts any topic, delivers verifiable reports in multiple formats",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "@croo-network/sdk": "latest",
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.7.0",
+    "better-sqlite3": "^11.0.0",
+    "dotenv": "^16.4.0",
+    "ethers": "^6.0.0",
+    "puppeteer": "^23.0.0",
+    "resend": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.0",
+    "@types/node": "^20.0.0",
+    "eslint": "^9.0.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
