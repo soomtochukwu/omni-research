@@ -1,5 +1,9 @@
 # 🔬 OmniResearch
 
+<p align="center">
+  <img src="assets/logo.jpg" alt="OmniResearch Logo" width="200" />
+</p>
+
 > Universal AI research agent on CROO CAP — accepts any topic, delivers verifiable reports in multiple formats (Markdown, PDF, Email)
 
 ## Track
