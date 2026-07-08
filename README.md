@@ -58,7 +58,3 @@ src/
     ├── hash.ts               # keccak256 utilities
     └── rate-limiter.ts
 ```
-
-## Full Plan
-
-See [PLAN.md](./PLAN.md) for the complete implementation plan with architecture diagrams, code examples, and milestones.
